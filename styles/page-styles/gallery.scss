@@ -43,6 +43,7 @@ nav {
   }
   img {
     border-radius: 0.25rem 0.25rem 0 0;
+    border: 3px solid #08376b;
   }
   .card-body {
     background-color: #08376b;
@@ -66,12 +67,17 @@ nav {
     }
   }
 }
+.text_categories {
+  padding: 0.5rem;
+  color: #08376b;
+  text-transform: uppercase;
+}
 .container.text-center {
   margin-top: 2rem;
   img {
     border-radius: 50%;
     border: none;
-    box-shadow: 1px 1px 20px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 1px 20px 8px rgba(8, 54, 107, 0.3);
     transition: all 0.3s ease 0s;
     cursor: pointer;
 
