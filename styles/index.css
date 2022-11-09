@@ -1,0 +1,80 @@
+/* Diana: navigation bar starts*/
+nav {
+  background-color: white;
+  border-bottom: 2px solid #08376b;
+}
+
+nav .navbar-nav .nav-link.active {
+  color: #08376b;
+}
+
+nav .container-fluid {
+  width: 80%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+nav .container-fluid ul {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+nav .container-fluid ul li {
+  margin: 1rem 0;
+  padding-left: 2rem;
+}
+
+nav .container-fluid ul a {
+  border-radius: 20px;
+}
+
+.offcanvas-header {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.offcanvas-header .btn-close {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.album.py-5 {
+  width: 80%;
+  margin: auto;
+  margin-top: 2rem;
+  background-color: #ffff;
+}
+
+.album.py-5 button {
+  margin-top: 0.75rem;
+}
+
+.album.py-5 img {
+  border-radius: 0.25rem 0.25rem 0 0;
+}
+
+.container.text-center {
+  margin-top: 2rem;
+}
+
+.container.text-center img {
+  border-radius: 50%;
+}
+
+.container.text-center img:hover {
+  border-color: #08376b;
+}
+
+.nav-item a {
+  padding-left: 1rem;
+}
+
+.nav-item a:hover {
+  background-color: #33ccff;
+}
+
+/* Diana: Navigation bar ends*/
+/*# sourceMappingURL=index.css.map */

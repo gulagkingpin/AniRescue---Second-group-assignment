@@ -1,0 +1,58 @@
+/* Diana: navigation bar starts*/
+nav {
+  background-color: rgb(255, 255, 255);
+  border-bottom: 2px solid #08376b;
+  .navbar-nav .nav-link.active {
+    color: #08376b;
+  }
+  .container-fluid {
+    width: 80%;
+    justify-content: flex-start;
+    ul {
+      justify-content: flex-end;
+      li {
+        margin: 1rem 0;
+        padding-left: 2rem;
+      }
+      a {
+        border-radius: 20px;
+      }
+    }
+  }
+}
+
+.offcanvas-header {
+  justify-content: flex-start;
+  .btn-close {
+    align-self: flex-start;
+  }
+}
+.album.py-5 {
+  width: 80%;
+  margin: auto;
+  margin-top: 2rem;
+  background-color: #ffff;
+  button {
+    margin-top: 0.75rem;
+  }
+  img {
+    border-radius: 0.25rem 0.25rem 0 0;
+  }
+}
+.container.text-center {
+  margin-top: 2rem;
+  img {
+    border-radius: 50%;
+    &:hover {
+      border-color: #08376b;
+    }
+  }
+}
+.nav-item a {
+  padding-left: 1rem;
+  &:hover {
+    background-color: #33ccff;
+  }
+}
+
+/* Diana: Navigation bar ends*/
