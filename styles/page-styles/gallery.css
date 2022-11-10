@@ -1,49 +1,36 @@
 nav {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   border-bottom: 2px solid #08376b;
 }
-
 nav .navbar-nav .nav-link.active {
   color: #08376b;
 }
 
 .container-fluid {
   width: 80%;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  justify-content: flex-start;
 }
-
 .container-fluid ul {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  justify-content: flex-end;
 }
-
 .container-fluid ul li {
   margin: 1rem 0;
   padding-left: 2rem;
 }
-
 .container-fluid ul a {
   border-radius: 20px;
 }
 
 .offcanvas-header {
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  justify-content: flex-start;
 }
-
 .offcanvas-header .btn-close {
-  -ms-flex-item-align: start;
-      align-self: flex-start;
+  align-self: flex-start;
 }
 
 .nav-item a {
   padding-left: 1rem;
 }
-
 .nav-item a:hover {
   background-color: #33ccff;
 }
@@ -52,41 +39,33 @@ nav .navbar-nav .nav-link.active {
   width: 80%;
   margin: auto;
   margin-top: 2rem;
-  background-color: #08366b1a;
+  background-color: rgba(8, 54, 107, 0.1019607843);
   border-radius: 0.5rem;
 }
-
 .album.py-5 button {
   margin-top: 0.75rem;
 }
-
 .album.py-5 img {
   border-radius: 0.25rem 0.25rem 0 0;
 }
-
 .album.py-5 .card-body {
   background-color: #08376b;
   color: #fff;
   border-radius: 0 0 0.25rem 0.25rem;
 }
-
 .album.py-5 .col {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
 }
-
 .album.py-5 .btn-outline-secondary {
   border-radius: 20px;
   color: #fff;
   padding: 0.5rem;
   border: none;
-  -webkit-box-shadow: 0px 3px 10px rgba(255, 255, 255, 0.396);
-          box-shadow: 0px 3px 10px rgba(255, 255, 255, 0.396);
-  -webkit-transition: all 0.3s ease 0s;
+  box-shadow: 0px 3px 10px rgba(255, 255, 255, 0.396);
   transition: all 0.3s ease 0s;
   cursor: pointer;
 }
-
 .album.py-5 .btn-outline-secondary:hover {
   background-color: #33ccff;
 }
@@ -94,63 +73,44 @@ nav .navbar-nav .nav-link.active {
 .container.text-center {
   margin-top: 2rem;
 }
-
 .container.text-center img {
   border-radius: 50%;
   border: none;
-  -webkit-box-shadow: 1px 1px 20px 8px rgba(0, 0, 0, 0.1);
-          box-shadow: 1px 1px 20px 8px rgba(0, 0, 0, 0.1);
-  -webkit-transition: all 0.3s ease 0s;
+  box-shadow: 1px 1px 20px 8px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease 0s;
   cursor: pointer;
 }
-
 .container.text-center img:hover {
-  background-color: #33ccff;
-  -webkit-box-shadow: 0px 15px 20px rgba(51, 204, 255, 0.6);
-          box-shadow: 0px 15px 20px rgba(51, 204, 255, 0.6);
+  background-color: rgb(51, 204, 255);
+  box-shadow: 0px 15px 20px rgba(51, 204, 255, 0.6);
   color: #fff;
-  -webkit-transform: translateY(-7px);
-          transform: translateY(-7px);
+  transform: translateY(-7px);
 }
 
 .container_section_1 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.397))), url(/images/dog_wallpaper.jpeg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.397)), url(/images/dog_wallpaper.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
   width: 100%;
   height: 600px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
 .container_section_1_title {
-  color: #ffff;
+  color: white;
   margin-bottom: 1.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
 }
-
 .container_section_1 .fa-chevron-down {
   font-size: 32px;
-  color: #ffff;
+  color: white;
 }
-
 .container_section_1 .arrow {
-  color: #ffff;
+  color: white;
   font-size: 25px;
   -webkit-animation-duration: 2s;
           animation-duration: 2s;
@@ -166,8 +126,7 @@ nav .navbar-nav .nav-link.active {
   }
   100% {
     opacity: 0;
-    -webkit-transform: translateY(10px);
-            transform: translateY(10px);
+    transform: translateY(10px);
   }
 }
 
@@ -177,14 +136,11 @@ nav .navbar-nav .nav-link.active {
   }
   100% {
     opacity: 0;
-    -webkit-transform: translateY(10px);
-            transform: translateY(10px);
+    transform: translateY(10px);
   }
 }
-
 @media screen and (max-width: 990px) {
   .img-thumbnail {
     width: 65%;
   }
-}
-/*# sourceMappingURL=gallery.css.map */
+}/*# sourceMappingURL=gallery.css.map */
